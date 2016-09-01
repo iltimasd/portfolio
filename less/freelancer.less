@@ -41,7 +41,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f1fc";
     font-family: FontAwesome;
     display: inline-block;
     position: relative;
@@ -473,4 +473,19 @@ footer {
     	opacity: 0;
     	display: none;
     }
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
